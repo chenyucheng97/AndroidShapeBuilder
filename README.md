@@ -1,6 +1,7 @@
 # AndroidShapeBuilder
 参考自：https://github.com/jaychang0917/SimpleText
 &nbsp;
+一个自定义的TextView，对background的设置进行了简单封装。同时包含了一个ShapeBuilder，可以用于设置给所有View添加背景
 
 简化View的background创建，支持在xml和代码中设置backgroundDrawable,  代码中支持链式调用，或者DSL创建
 
