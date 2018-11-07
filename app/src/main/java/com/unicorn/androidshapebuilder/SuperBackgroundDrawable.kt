@@ -26,9 +26,6 @@ class SuperBackgroundDrawable : GradientDrawable() {
      */
     fun solid(color: Int) = apply { setColor(color) }
 
-
-    fun setSolid(color: Int) = apply { setColor(color) }
-
     /**
      * 设置px值为[px]的四个圆角
      */
@@ -42,32 +39,21 @@ class SuperBackgroundDrawable : GradientDrawable() {
     }
 
     /**
-     * 可以使用DSL语法构建drawable
+     * 添加一个Builder ，可以使用DSL语法构建drawable
      */
-//    fun ShapeBuilder(type: Int, init: () -> Unit) = HotelBackgroundDrawable(type).apply { init }
-
-
     class Builder {
 
-
         var shapeType: Int = 0
-
         var strokeWidth: Int = 0
-
         var strokeColor: Int = 0
-
-
         var solidColor: Int = 0
-
         var radius: Float = 0f
-
         var topLeftRadius = 0f
         var topRightRadius = 0f
         var botLeftRadius = 0f
         var botRightRadius = 0f
 
-
-         fun build(): SuperBackgroundDrawable {
+        fun build(): SuperBackgroundDrawable {
             val drawable = SuperBackgroundDrawable().apply {
                 shape = shapeType
                 setStroke(strokeWidth, strokeColor)
@@ -88,7 +74,6 @@ class SuperBackgroundDrawable : GradientDrawable() {
             }
             return drawable
         }
-
     }
 
 }
