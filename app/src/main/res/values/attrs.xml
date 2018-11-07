@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="MyTextView">
+
+
+        <attr name="shapeType" format="integer|enum" >
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="LINE" value="2" />
+        </attr>
+
+        <attr name="totalRadius" format="dimension"/>
+
+        <attr name="radiusTopLeft" format="dimension"/>
+        <attr name="radiusBottomLeft" format="dimension"/>
+        <attr name="radiusTopRight" format="dimension"/>
+        <attr name="radiusBottomRight" format="dimension"/>
+
+        <attr name="strokeColor"  format="color"/>
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="soildBac" format="color"/>
+
+
+
+    </declare-styleable>
+</resources>
