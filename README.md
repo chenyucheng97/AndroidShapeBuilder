@@ -7,7 +7,7 @@
 支持在xml和代码中设置View的background
 &nbsp;
 
-![效果图：](https://github.com/chenyucheng97/AndroidShapeBuilder/blob/master/WechatIMG198.png)
+![效果图：](https://github.com/chenyucheng97/AndroidShapeBuilder/blob/master/WechatIMG199.jpeg)
 
 
 &nbsp;
