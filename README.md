@@ -82,4 +82,9 @@ xml设置方式：
             solidColor = Color.BLUE
         }
 
+        textView0.background = shapeBuilder1
+        textView1.background = shapeBuilder2
+        textView2.background = shapeBuilder3
+        textView3.background = shapeBuilder4
+        textView4.background = shapeBuilder5
 ``` 
