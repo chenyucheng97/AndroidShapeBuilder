@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
 
         /**
-         * 工具类方式定义对象
+         * lambda方式定义对象
          */
         val shapeBuilder4 = shapeBuilder {
             radius(35f)
